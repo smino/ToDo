@@ -1,7 +1,4 @@
 public enum StorageType {
-
-	ARCHIVED;
-
-	public StorageType PRODUCITON;
-
+	public StorageType ARCHIVED;
+	public StorageType PRODUCTION;
 }

@@ -1,6 +1,6 @@
 public enum IntervalType {
 
-	DAILY;
+	public IntervalType DAILY;
 
 	public IntervalType WEEKLY;
 

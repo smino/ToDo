@@ -1,8 +1,8 @@
 public enum FilterType {
 
-	TITLE,
+	public FilterType TITLE,
 
-	TIMESPAN;
+	public FilterType TIMESPAN;
 
 	public FilterType DAY;
 
