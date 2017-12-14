@@ -5,6 +5,9 @@ public class ToDo {
         System.out.println("Hallo Welt!");
         // finde ich doof
         boolean martin = true;
-        if (martin) System.out.println("Er tut nichts!");
+        if (martin) {
+            System.out.println("Er tut nichts!");
+            martin = false;
+        }
     }
 }
