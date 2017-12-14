@@ -1,11 +1,15 @@
+package de.swtproject.todo.core;
+
+import java.util.Date;
+
 public class ToDo {
     private String titel;
     private String description;
 
     private Period interval;
-    private Datetime start;
-    private Datetime deadline;
-    private Datetime notifyPoint;
+    private Date start;
+    private Date deadline;
+    private Date notifyPoint;
 
     public ToDo() {
 
@@ -35,31 +39,31 @@ public class ToDo {
         this.interval = interval;
     }
 
-    public Datetime getStart() {
+    public Date getStart() {
         return start;
     }
 
-    public void setStart(Datetime start) {
+    public void setStart(Date start) {
         this.start = start;
     }
 
-    public Datetime getDeadline() {
+    public Date getDeadline() {
         return deadline;
     }
 
-    public void setDeadline(Datetime deadline) {
+    public void setDeadline(Date deadline) {
         this.deadline = deadline;
     }
 
-    public Datetime getNotifyPoint() {
+    public Date getNotifyPoint() {
         return notifyPoint;
     }
 
-    public void setNotifyPoint(Datetime notifyPoint) {
+    public void setNotifyPoint(Date notifyPoint) {
         this.notifyPoint = notifyPoint;
     }
 
-    public void save(String titel, String description, Datetime start, Datetime deadline, Notifypoint notifypoint) {
+    public void save(String titel, String description, Date start, Date deadline, Date notifypoint) {
       //save todo
     }
 }

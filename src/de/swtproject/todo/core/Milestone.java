@@ -1,3 +1,8 @@
+package de.swtproject.todo.core;
+
+import java.util.LinkedList;
+import java.util.List;
+
 public class Milestone {
     private String titel;
     private String description;
@@ -9,7 +14,7 @@ public class Milestone {
     }
 
     public boolean addToDo(ToDo toDo) {
-        returen this.todos.add(toDo);
+        return this.todos.add(toDo);
     }
 
     public boolean deleteToDo(ToDo toDo) {
