@@ -20,9 +20,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/ToDo.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
 /.idea/uiDesigner.xml
-/.idea/inspectionProfiles/
+/.idea/
+/src/main/resources/database.db
