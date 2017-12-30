@@ -10,7 +10,7 @@ public class Milestone {
     private List<ToDo> todos;
 
     public Milestone() {
-        this.todos = new LinkedList<>();
+        this.todos = new LinkedList<ToDo>();
     }
 
     public boolean addToDo(ToDo toDo) {

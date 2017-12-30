@@ -1,9 +1,17 @@
 package de.swtproject.todo.core;
 
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
+
 import java.util.Date;
 
+@DatabaseTable(tableName = "todo")
 public class ToDo {
+
+    @DatabaseField(id = true)
     private String titel;
+
+    @DatabaseField
     private String description;
 
     private Period interval;
@@ -11,8 +19,13 @@ public class ToDo {
     private Date deadline;
     private Date notifyPoint;
 
-    public ToDo() {
+    ToDo() {
+        //needed for ORMLight
+    }
 
+    public ToDo(String title, String description) {
+        this.titel = title;
+        this.description = description;
     }
 
     public String getTitel() {
